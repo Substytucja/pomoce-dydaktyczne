@@ -1,7 +1,7 @@
 {box-sizing:border-box;}
 
-body {
-	margin: 0:
+	body {
+	margin: 0;
 }
 
 .col-1-4 {
@@ -11,7 +11,11 @@ body {
 	padding: 15px;
 }
 
-.col-1-4:nth-child(odd) {background-color: antiquewhite;}
+.col-1-4:nth-child(odd) {
+	background-color: antiquewhite;
+}
 
-@media (max-width:756px) {
-	.col-1-4{width: 50%;}
+@media (max-width:700px) {
+	.col-1-4 {
+		width: 50%;
+	}
