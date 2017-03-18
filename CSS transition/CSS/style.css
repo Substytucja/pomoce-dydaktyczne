@@ -1,20 +1,19 @@
-img { height: 20px;}
+.square {background-color:blue;
+margin: auto;
+height: 200px;
+width: 200px;
+border: 10px solid white;
+transition: all 1s ease-in;
+}
 
-p {display: block;}
+/*dziala te zapisane jako
+transition: background-color 2s ease-in*/
+/*transition: background-color 2s ease-in*/
+.square:hover {width: 400px;}
 
-#truskawka1 {float:left;}
+#square1 {background-color: red; }
 
-#truskawka2 {float:right;}
+#square2 {background: blue;}
 
-/*floating znika*/
-#truskawka3 {float:none;}
-
-#truskawka4 {float:left;}
-
-
-/*czyści nasz floating wyłącznie*/
-p:last-child {clear:left;}
-
-p {color:crimson;}
-h2 {color: darkred;}
+#square3 {background: green;}
 
