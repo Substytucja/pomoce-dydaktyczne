@@ -1,0 +1,30 @@
+/*selektor dla tylu generalnego - nadpisany przez kazdy kolejny*/
+* {}
+/**/
+
+/*selektor */
+#pl::before{
+	content: '* ';
+	color: red;
+	font-size: 3em;
+}
+
+ul{list-style-type:none;}
+
+
+/*daje nam gwiadkę przed linią*/
+.item001::before {content: ' *';}
+
+/*daje nam gwiazdkę po linii*/
+.item001::after {content: '* ';}
+
+.item002::before {content: ' !!!';}
+
+.item002::after {content: ' *';}
+/**/
+
+#p2::first-letter {color:red;
+font-size: 1.5em;}
+
+#p3::first-line {color:red;
+font-size: 1.5em;}
