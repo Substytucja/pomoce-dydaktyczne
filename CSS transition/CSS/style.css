@@ -1,19 +1,28 @@
-.square {background-color:blue;
-margin: auto;
-height: 200px;
-width: 200px;
-border: 10px solid white;
-transition: all 1s ease-in;
+.square {
+	background-color: blue;
+	margin: auto;
+	height: 200px;
+	width: 200px;
+	border: 10px solid white;
+	
+/*efekt transition da wszytskich opcji*/
+	transition: all 1s ease-in;
 }
 
-/*dziala te zapisane jako
-transition: background-color 2s ease-in*/
-/*transition: background-color 2s ease-in*/
-.square:hover {width: 400px;}
+/*efekt hover dla clalej klasy*/
 
-#square1 {background-color: red; }
+.square:hover {
+	width: 400px;
+}
 
-#square2 {background: blue;}
+#square1 {
+	background-color: red;
+}
 
-#square3 {background: green;}
+#square2 {
+	background: blue;
+}
 
+#square3 {
+	background: green;
+}

@@ -1,0 +1,17 @@
+
+body {background-color:bisque;
+	height: 3000px;}
+
+.background {
+	height: 600px;
+	margin: auto;
+	background-image: /*url(https://e24files.com/siepomaga/uploads/fundraise/photo/3062/truskawka.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position: top;*/
+	
+	
+	background: url(https://e24files.com/siepomaga/uploads/fundraise/photo/3062/truskawka.jpg) center cover no-repeat;
+	
+	/*...background-attachment: fixed*/
+}
