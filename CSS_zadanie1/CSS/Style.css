@@ -1,0 +1,31 @@
+form {background: #213b50; color:white; display: block;}
+
+label[for"city"] {background-color:aqua;}
+
+
+input[type="submit"] {width=80px; background-color: aqua;color: #fff;}
+
+input {background-color: #2b4a64;border:1px solid #213b50}
+input:focus {background-color: #4e708c;}
+
+textarea {background-color: #2b4a64;}
+textarea:focus {background-color: #4e708c;display: block;}
+
+option {background-color: #2b4a64;}
+option:focus {background-color: #4e708c;outline: none;}
+option {color:white;}
+
+input.submit {background-color: chartreuse;}
+
+
+#input(type="submit") {background-color: antiquewhite;}
+
+label[for="male"] 
+label[for="female"] {display:inline; background-color: aqua}
+label[for=""]
+
+label{display:block}
+
+
+/**/
+input[type="submit"] {width=80px; background-color: greenyellow;}
