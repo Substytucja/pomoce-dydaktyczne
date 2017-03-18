@@ -1,0 +1,20 @@
+img { height: 20px;}
+
+p {display: block;}
+
+#truskawka1 {float:left;}
+
+#truskawka2 {float:right;}
+
+/*floating znika*/
+#truskawka3 {float:none;}
+
+#truskawka4 {float:left;}
+
+
+/*czyści nasz floating wyłącznie*/
+p:last-child {clear:left;}
+
+p {color:crimson;}
+h2 {color: darkred;}
+
