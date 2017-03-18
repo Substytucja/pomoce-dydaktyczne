@@ -1,0 +1,60 @@
+/*selektor dla stylu generalnego - nadpisany przez kazdy kolejny*/
+* {}
+
+:link{}
+
+
+/**/
+
+a {display:block;
+font-size: 3em;}
+
+a#link-1:link {color: red;}
+
+
+/*nadaje wyglad ktore juz byly odwiedzone*/
+a#link-2:visited {color: green;}
+
+a#link-3:hover {color: bisque;
+background-color: aqua;
+font-size: 10em;
+display:inline;}
+
+
+a#link-4:active {color: bisque;}
+
+
+a#link-5:focus {color: yellow;}
+
+/*odznacza pole na jakim aktulanie jestesmy (mozna) sprawdzi tabem)*/
+
+input:focus {background-color: yellowgreen;}
+
+/*dziwne, niepotrzebne niezrozumilae zakotwiczenie*/
+#pl:target {color: fuchsia;}
+
+
+
+p:lang(en) {font-weight: 800;}
+
+p:lang(pl) {font-weight: 200;}
+
+/*pierwszy element listy ma ten kolor*/
+
+.list-item:first-child{background-color: aqua;}
+
+/*ostatni element listy ma ten kolor*/
+
+.list-item:last-child{background-color: maroon;}
+
+/*zadziala jesli bedzie tylko jeden child*/
+div > p:only-child {color:blue}
+
+/*koloruje poszczgólne dzieci (wybrane) klasy
+dzialaja kaskadowo, kolejna regula nadpisuje pierwsza*/
+
+.list-item:nth-child(odd) {background-color: deeppink;}
+
+.list-item:nth-child(7) {background-color: cadetblue;}
+
+.list-item:nth-child(3n+2) {background-color: forestgreen;}
