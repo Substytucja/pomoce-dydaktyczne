@@ -1,30 +1,20 @@
-/*selektor dla tylu generalnego - nadpisany przez kazdy kolejny*/
-* {}
-/**/
+img { height: 20px;}
 
-/*selektor */
-#pl::before{
-	content: '* ';
-	color: red;
-	font-size: 3em;
-}
+p {display: block;}
 
-ul{list-style-type:none;}
+#truskawka1 {float:left;}
+
+#truskawka2 {float:right;}
+
+/*floating znika*/
+#truskawka3 {float:none;}
+
+#truskawka4 {float:left;}
 
 
-/*daje nam gwiadkę przed linią*/
-.item001::before {content: ' *';}
+/*czyści nasz floating wyłącznie*/
+p:last-child {clear:left;}
 
-/*daje nam gwiazdkę po linii*/
-.item001::after {content: '* ';}
+p {color:crimson;}
+h2 {color: darkred;}
 
-.item002::before {content: ' !!!';}
-
-.item002::after {content: ' *';}
-/**/
-
-#p2::first-letter {color:red;
-font-size: 1.5em;}
-
-#p3::first-line {color:red;
-font-size: 1.5em;}
